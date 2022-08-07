@@ -16,13 +16,13 @@ const ListeApprenant = () =>{
                     <div className='blog-learners'>
                         {learnerList.map(({id, nom, prenom, niveau, academie, image, cohorte, statut, commentaire})=>(
                             <div key={id} className="learners">
-                                <div>
+                               
                                     <Profil 
-                                        id={id} nom={nom} prenom={prenom}
+                                        nom={nom} prenom={prenom}
                                         niveau={niveau} image={image} cohorte={cohorte}
                                         statut={statut} commentaire={commentaire} academie={academie}
                                     />
-                                </div>
+                            
                                 <div>{academie}</div> 
                                 <div>Noms : {nom} {prenom}</div> 
                                 <div>Status : {statut} </div>
