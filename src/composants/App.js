@@ -5,6 +5,7 @@ import {Routes, Route} from "react-router-dom";
 import { ToastContainer } from "react-toast";
 import Footer from "./Footer";
 import ListeApprenant from "./List";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Route exact path='/' element={<Main />} ></Route>
             <Route exact path='/apropos' element={<Main />}></Route>
             <Route exact path='/list' element={<ListeApprenant />}></Route>
-            <Route exact path='/contact' element=""></Route>
+            <Route exact path='/contact' element={<Contact />}></Route>
         </Routes>
         <Footer />
     </div>
