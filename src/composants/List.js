@@ -22,17 +22,13 @@ const ListeApprenant = () =>{
                                         niveau={niveau} image={image} cohorte={cohorte}
                                         statut={statut} commentaire={commentaire} academie={academie}
                                     />
-                            
-                                {/* <div>{academie}</div>  */}
+                                
                                 <div className='list-ident'>
-                                    <div>Noms : {nom} {prenom}</div> 
-                                    <div>Status : {statut} </div>
-                                    
-                                    <div>Cohorte : {cohorte}</div>
-                                    {/* <div className='categorie'>
-                                        Categorie : <NiveauLearner niveau={niveau}/>
-                                    </div> */}
-                                    <div>Blog : {commentaire}</div>
+                                    <div className='commentaire'> {commentaire}</div>
+                                    <div>Je suis {prenom} {nom}</div> 
+                                    <div>{statut} </div>
+                                    <div>formé(e) à {academie} en {cohorte}. 
+                                    <span className='plus'> Voir plus</span></div> 
                                 </div>
                                 
                             </div>

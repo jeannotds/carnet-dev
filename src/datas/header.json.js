@@ -2,7 +2,7 @@
 import logo from '../img/logo.png'
 
 export const contact_top_header = {
-    'tel' : 243825910788,
+    'tel' : '+243 825 910 788',
     'gmail':"diambujeannot@gmail.com",
     'facebook' : 'jeannot diambu',
     'github' : 'Jeannotds',

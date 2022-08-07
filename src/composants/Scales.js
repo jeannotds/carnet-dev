@@ -7,7 +7,7 @@ const Scale = ({type, niveau}) =>{
     const ShowLevelList = {
         1: 'Junior',
         2: 'Intermediaire',
-        3: 'Junior'
+        3: 'Senior'
     }
 
     const myNiveau = type === 'niveau' ? <img src={Sun} /> : null
