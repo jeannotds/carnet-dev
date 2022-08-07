@@ -1,0 +1,60 @@
+.about-us{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.about-left{
+    background-color: rgba(232, 229, 226, 0.6);
+    height: 700px;
+    width: 40%;
+}
+.about-right{
+    background-color: rgb(48, 38, 65);
+    height: 700px;
+    width: 60%;
+}
+
+.top-about{
+    position: absolute;
+    height: 450px;
+    width: 50%;
+    background-color: rgba(232, 229, 226, 1);
+    box-shadow: 0px 1px 10px rgba(66, 56, 56, 0.4);
+    padding: 20px;
+    display: flex;
+}
+.top-1{
+    width: 45%;
+    padding: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    line-height: 1.8;
+}
+.top-2{
+    width: 55%;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.title-about{
+    font-size: 50px;
+}
+
+.savoir-plus{
+    display: inline-block;
+    background-color: #4b89da;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.illis{
+    width: 300px;
+    height: 300px;
+}
