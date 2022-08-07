@@ -2,15 +2,37 @@
 
 .learners{
     box-shadow:  0px 0px 4px rgba(0, 0, 0, 0.2);
-    margin: 15px 10px;
+    margin: 15px 0px;
     width: 250px;
     height: 300px;
-    padding: 10px;
+    padding: 5px;
+    position: relative;
 }
 
 .blog-learners{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    
+}
+
+.list-dev{
+    padding: 0 150px;
+
+}
+
+.list-dev h2{
+    font-size:  35px;
+    margin: 70px 0 30px;
+    color: rgba(0, 0, 0, 0.57);
+    border-bottom: 3px solid rgba(0, 0, 255, 0.2);
+    width: 360px;
+}
+
+.list-dev p{
+    width: 500px;
+    margin: 0 0 40px 0;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.67);
 }

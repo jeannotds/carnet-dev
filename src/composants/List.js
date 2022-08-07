@@ -9,7 +9,7 @@ import Profil from './Profil'
 const ListeApprenant = () =>{
 
     return (
-            <div>
+            <div className='list-dev'>
                 <h2>Liste des developpeurs</h2>
                 <p>{contact_top_header.msgSite}</p>
 
@@ -23,15 +23,17 @@ const ListeApprenant = () =>{
                                         statut={statut} commentaire={commentaire} academie={academie}
                                     />
                             
-                                <div>{academie}</div> 
-                                <div>Noms : {nom} {prenom}</div> 
-                                <div>Status : {statut} </div>
-                                
-                                <div>Cohorte : {cohorte}</div>
-                                <div className='categorie'>
-                                    Categorie : <NiveauLearner niveau={niveau}/>
+                                {/* <div>{academie}</div>  */}
+                                <div className='list-ident'>
+                                    <div>Noms : {nom} {prenom}</div> 
+                                    <div>Status : {statut} </div>
+                                    
+                                    <div>Cohorte : {cohorte}</div>
+                                    {/* <div className='categorie'>
+                                        Categorie : <NiveauLearner niveau={niveau}/>
+                                    </div> */}
+                                    <div>Blog : {commentaire}</div>
                                 </div>
-                                <div>Blog : {commentaire}</div>
                                 
                             </div>
                         ))}

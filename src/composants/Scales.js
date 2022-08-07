@@ -1,5 +1,6 @@
 import Sun from '../img/sun.svg'
 import water from '../img/water.svg'
+import '../styles/Scale.css'
 
 const Scale = ({type, niveau}) =>{
 
@@ -18,9 +19,9 @@ const Scale = ({type, niveau}) =>{
 
     return(
 
-        <div onClick={ShowLevel}>
+        <div onClick={ShowLevel} className="list-niveau">
             {rang.map((rangeElem)=>(
-                niveau >= rangeElem ? <span key={rangeElem.toString()}>{myNiveau}</span> : null
+                niveau >= rangeElem ? <span className='scale' key={rangeElem.toString()}>{myNiveau}</span> : null
             ))}
         </div>
 
