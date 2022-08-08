@@ -58,3 +58,21 @@
     color: rgb(207, 35, 35);
     cursor: pointer;
 }
+
+/* .info-list{
+    display: flex;
+} */
+
+.info-list-blog{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info-list-blog div{
+    cursor: pointer;
+    width: 23%;
+    height: 20px;
+    text-align: center;
+    background-color: red;
+}

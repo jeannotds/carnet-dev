@@ -4,6 +4,7 @@ import Main from "./Main";
 import {Routes, Route} from "react-router-dom";
 import { ToastContainer } from "react-toast";
 import Footer from "./Footer";
+import 'react-toastify/dist/ReactToastify.css';
 import ListeApprenant from "./List";
 import Contact from "./Contact";
 

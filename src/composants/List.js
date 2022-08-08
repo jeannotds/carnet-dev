@@ -10,8 +10,18 @@ const ListeApprenant = () =>{
 
     return (
             <div className='list-dev'>
-                <h2>Liste des developpeurs</h2>
-                <p>{contact_top_header.msgSite}</p>
+              <div className='info-list'>
+                    <div className='info-list-title'>
+                        <h2>Liste des developpeurs</h2>
+                        <p>{contact_top_header.msgSite}</p>
+                    </div>
+                    <div className='info-list-blog'>
+                        <div>Voir tous</div>
+                        <div>1ere Chorte</div>
+                        <div>2ere Chorte</div>
+                        <div>3ere Chorte</div>
+                    </div>
+              </div>
 
                     <div className='blog-learners'>
                         {learnerList.map(({id, nom, prenom, niveau, academie, image, cohorte, statut, commentaire})=>(
